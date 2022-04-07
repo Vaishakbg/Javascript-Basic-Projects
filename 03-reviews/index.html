@@ -14,7 +14,35 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>review project</h1>
+    <main>
+      <section class="container">
+        <!-- title -->
+        <div class="title">
+          <h2>Our reviews</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- review -->
+        <article class="review">
+          <div class="img-container">
+            <img src="./person-1.jpeg" id="person-img" alt="person">
+          </div>
+          <h4 id="author">Sara Jones</h4>
+          <p id="job">Ux Designer</p>
+          <p id="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, sapiente. Sed neque doloremque voluptate magni deleniti asperiores, est iste reiciendis. Tempora perferendis vitae delectus impedit repellat beatae libero accusamus ab?</p>
+          <!-- prev next button  -->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <!-- random button -->
+          <button class="random-btn">Random Review</button>
+        </article>
+      </section>
+    </main>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
